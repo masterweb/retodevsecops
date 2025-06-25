@@ -26,4 +26,4 @@ jobs:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
     - name: Push Docker image
-      run: docker push yourdockerhubusername/node-app:latest
+      run: docker push georgefer/retodevsecops:latest
